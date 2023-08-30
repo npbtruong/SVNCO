@@ -1,0 +1,47 @@
+Log created: 2023-08-28 10:54:48
+Type: backup
+[2023-08-28 10:54:48][notice]Start backing up.
+[2023-08-28 10:54:48][notice]server info fcgi:Off max execution time: 300 wp version:6.1.3 php version:8.1.22 db version:10.3.39 php ini:safe_mode: memory_limit:256M memory_get_usage:3.48 MB memory_get_peak_usage:3.86 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-08-28 10:54:48][notice]LiteSpeed Server.
+[2023-08-28 10:54:48][notice]Add LiteSpeed Rule
+[2023-08-28 10:54:48][notice]Prepare to backup backup_db files.
+[2023-08-28 10:54:48][notice]Start exporting database.
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_links
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_term_relationships
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_commentmeta
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_postmeta
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_term_taxonomy
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_termmeta
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_terms
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_usermeta
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_users
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_posts
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_comments
+[2023-08-28 10:54:48][notice]Preparing to dump table bT5bIGa_options
+[2023-08-28 10:54:48][notice]Exporting database finished.
+[2023-08-28 10:54:48][notice]Start compressing database
+[2023-08-28 10:54:48][notice]Prepare to zip file. file: deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_db.sql
+[2023-08-28 10:54:48][notice]Adding zip files completed.deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_db.part001.zip, filesize: 57.61 KB
+[2023-08-28 10:54:48][notice]Compressing database completed
+[2023-08-28 10:54:48][notice]Backing up backup_db completed.
+[2023-08-28 10:54:48][notice]Prepare to backup backup_themes files.
+[2023-08-28 10:54:48][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_themes.part001.zip index:372
+[2023-08-28 10:54:48][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_themes.part001.zip success. index:372 file size:12.42 MB
+[2023-08-28 10:54:49][notice]Backing up backup_themes completed.
+[2023-08-28 10:54:49][notice]Prepare to backup backup_plugin files.
+[2023-08-28 10:54:49][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_plugin.part001.zip index:30
+[2023-08-28 10:54:49][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_plugin.part001.zip success. index:30 file size:273.75 KB
+[2023-08-28 10:54:49][notice]Backing up backup_plugin completed.
+[2023-08-28 10:54:49][notice]Prepare to backup backup_uploads files.
+[2023-08-28 10:54:49][notice]Backing up backup_uploads completed.
+[2023-08-28 10:54:49][notice]Prepare to backup backup_content files.
+[2023-08-28 10:54:49][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_content.part001.zip index:1
+[2023-08-28 10:54:49][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_content.part001.zip success. index:1 file size:419.00 B
+[2023-08-28 10:54:49][notice]Backing up backup_content completed.
+[2023-08-28 10:54:49][notice]Prepare to backup backup_core files.
+[2023-08-28 10:54:49][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_core.part001.zip index:2527
+[2023-08-28 10:54:51][notice]Compressing zip file:deployyourai.cfd_wpvivid-64ec7cf849802_2023-08-28-10-54_backup_core.part001.zip success. index:2527 file size:49.84 MB
+[2023-08-28 10:54:51][notice]Backing up backup_core completed.
+[2023-08-28 10:54:51][notice]Backup cancelled.
+[2023-08-28 10:54:52][notice]LiteSpeed Server.
+[2023-08-28 10:54:52][notice]Clear LiteSpeed Rule

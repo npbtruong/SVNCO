@@ -1,0 +1,28 @@
+[28-Aug-2023 10:25:09 UTC] PHP Warning:  get_comment(): Argument #1 ($comment) must be passed by reference, value given in /home/mhcavkmz/public_html/wp-includes/class-wp-comment-query.php on line 484
+[28-Aug-2023 10:25:10 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/plesk/wp-cli-toolkit-command/src/Instance_Command.php on line 142
+[28-Aug-2023 10:27:18 UTC] PHP Warning:  get_comment(): Argument #1 ($comment) must be passed by reference, value given in /home/mhcavkmz/public_html/wp-includes/class-wp-comment-query.php on line 484
+[28-Aug-2023 10:39:53 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/mhcavkmz/public_html/wp-content/maintenance.php on line 16
+[28-Aug-2023 10:39:53 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/mhcavkmz/public_html/wp-content/maintenance.php on line 17
+[28-Aug-2023 10:39:53 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/mhcavkmz/public_html/wp-content/maintenance.php on line 18
+[28-Aug-2023 10:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ITSEC_User_Security_Check::get_last_active_cell_contents() in /home/mhcavkmz/public_html/wp-content/plugins/ithemes-security-pro/pro/user-security-check/class-itsec-user-security-check.php:59
+Stack trace:
+#0 /home/mhcavkmz/public_html/wp-includes/class-wp-hook.php(310): ITSEC_User_Security_Check->check_inactive_accounts()
+#1 /home/mhcavkmz/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#2 /home/mhcavkmz/public_html/wp-content/plugins/ithemes-security-pro/core/modules/notification-center/class-notification-center.php(800): apply_filters()
+#3 /home/mhcavkmz/public_html/wp-content/plugins/ithemes-security-pro/core/modules/notification-center/class-notification-center.php(750): ITSEC_Notification_Center->send_scheduled_notification()
+#4 /home/mhcavkmz/public_html/wp-content/plugins/ithemes-security-pro/core/modules/notification-center/class-notification-center.php(721): ITSEC_Notification_Center->send_scheduled_notifications()
+#5 /home/mhcavkmz/public_html/wp-content/plugins/ithemes-security-pro/core/modules/notification-center/class-notification-center.php(677): ITSEC_Notification_Center->check_notification_schedule_accurate()
+#6 /home/mhcavkmz/public_html/wp-includes/class-wp-hook.php(308): ITSEC_Notification_Center->check_notification_schedule_fast()
+#7 /home/mhcavkmz/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 /home/mhcavkmz/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/mhcavkmz/public_html/wp-settings.php(617): do_action()
+#10 /home/mhcavkmz/public_html/wp-config.php(102): require_once('/home/mhcavkmz/...')
+#11 /home/mhcavkmz/public_html/wp-load.php(50): require_once('/home/mhcavkmz/...')
+#12 /home/mhcavkmz/public_html/wp-blog-header.php(13): require_once('/home/mhcavkmz/...')
+#13 /home/mhcavkmz/public_html/index.php(17): require('/home/mhcavkmz/...')
+#14 {main}
+  thrown in /home/mhcavkmz/public_html/wp-content/plugins/ithemes-security-pro/pro/user-security-check/class-itsec-user-security-check.php on line 59
+[28-Aug-2023 10:48:26 UTC] PHP Warning:  Undefined array key 0 in /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/plesk/wp-cli-toolkit-command/src/Instance_Command.php on line 142
+[28-Aug-2023 11:00:29 UTC] PHP Warning:  Cannot modify header information - headers already sent in /home/mhcavkmz/public_html/wp-includes/load.php on line 280
+[28-Aug-2023 11:03:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mhcavkmz/public_html/wp-content/plugins/seo-by-rank-math/includes/modules/analytics/class-email-reports.php on line 271
+[28-Aug-2023 11:14:29 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Lịch cho sự kiện không tồn tại., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
